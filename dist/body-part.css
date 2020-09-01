@@ -1,0 +1,81 @@
+$heading-font: 'Oxygen', sans-serif;
+$body-font: 'Source Sans Pro', sans-serif;
+$navbar-color: #1F87E6;
+$logo-background: #0A6AC1;
+$text-color: #12110F;
+$sub-heading-color: #1884F3;
+$button-color: #1F87E6;
+$footer-background-color: #0E1720;
+$footer-links-color: #8AB3C9;
+$white: #FFF9FE;
+@charset "UTF-8";
+.container {
+  padding: 30px 100px;
+  font-family: "Source Sans Pro", sans-serif;
+  /*left-column*/
+  /*right column*/
+  /*button*/
+}
+.container .row .col-md-6 {
+  padding: 0;
+}
+.container .row .col-md-12 {
+  padding: 0;
+}
+.container .left-column {
+  padding-right: 30%;
+}
+.container .sub-heading p {
+  color: #1884F3;
+  font-family: "Source Sans Pro", sans-serif;
+  padding-bottom: 10px;
+}
+.container .centered-header2 h2 {
+  border-left: 2px solid #1884F3;
+  padding-left: 20px;
+  font-family: "Oxygen", sans-serif;
+}
+.container .left-column .paragraph-left {
+  padding: 30px 0;
+  font-size: 120%;
+}
+.container .left-column .bullets {
+  padding-left: 20px;
+  list-style-type: none;
+}
+.container .left-column .bullets li {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.container .left-column .bullets li::before {
+  color: #1884F3;
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.container .right-column .paragraph-right {
+  padding-bottom: 30px;
+}
+.container button {
+  background-color: #1F87E6;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  color: #FFF9FE;
+  font-size: 120%;
+  border: none;
+}
+.container button .button-inside {
+  border: 1px solid #FFF9FE;
+  border-radius: 5px;
+  padding: 10px;
+}
+.container .img img {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: 300px;
+}
+
+/*container*/

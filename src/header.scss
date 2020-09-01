@@ -1,0 +1,38 @@
+@import url(variables.scss);
+
+.header{
+	background-image: url('../images/banner.jpg');
+
+	.large-text{
+		//width: 35%;
+		width: 50%;
+		margin: 0 auto;
+		padding: 20px;
+
+		&__title{
+			font-family: $heading-font;
+			text-align: center;
+			font-weight: bold;
+		}
+	}
+
+	.centered-header{
+		width: 30%;
+		margin: 0 auto;
+		padding: 20px;
+
+		&__title{
+			font-family: $heading-font;
+			text-align: center;
+		}
+	}
+
+	.leading-paragraph{
+		padding: 20px;	
+
+		&__text{
+			font-family: $heading-font;
+			text-align: center;
+		}
+	}
+}/*header*/

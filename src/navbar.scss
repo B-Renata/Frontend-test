@@ -1,0 +1,69 @@
+@import url(variables.scss);
+
+.nav{
+	background-color: $navbar-color;
+}
+
+.navbar{
+	background-color: $navbar-color;
+	padding: 50px;
+	//position: relative;
+
+	.container{
+		padding: 0 100px;
+	}
+}
+
+.navbar-nav{
+	list-style-type: none;
+	display: inline;
+
+	a{
+		text-decoration: none;
+		cursor: pointer;
+}
+		&__link{
+			color: $white;
+			display: inline;
+			padding: 0 15px;
+			position: relative;
+			z-index: 11;
+
+			&--button{
+			border: 1px solid $white;
+			padding-top:10px;
+			padding-bottom: 10px;
+
+			img{
+				height: 16px;
+			}
+		}
+		}
+
+		
+
+		
+}/*navbar-nav*/
+
+.icon{
+	i{
+		display: none;
+	}
+}
+
+.logo{
+	//background-color: $logo-background;
+	//padding: 20px;
+	//width: 10%;
+	//display: flex;
+	//justify-content: center;
+	padding-left: 43.5%;
+	padding-top: 0;
+	position: absolute;
+	z-index: 10;
+	img{
+		background-color: $logo-background;
+		padding: 20px 30px;	
+		cursor: pointer;
+	}
+}

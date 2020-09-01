@@ -1,0 +1,35 @@
+@import url(variables.scss);
+.footer{
+	background-color: $footer-background-color;
+	color: #FFF9FE;
+	width: 100%;
+
+	.container{
+		padding-top: 20px;
+		padding-bottom: 10px;
+	}
+
+	.footer-left{
+		&__links{
+			text-decoration: none;
+			color: $footer-links-color;
+			border-right: 1px solid #648069;
+			padding-right: 10px;
+			padding-left: 10px;
+			font-family: $body-font;
+				}
+
+		a:last-child{
+			border-right: 0;
+			}
+		}
+
+	.about-author{
+		float: right;
+		font-family: $body-font;
+
+	}
+
+}/*footer*/
+
+
