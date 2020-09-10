@@ -1,13 +1,3 @@
-$heading-font: 'Oxygen', sans-serif;
-$body-font: 'Source Sans Pro', sans-serif;
-$navbar-color: #1F87E6;
-$logo-background: #0A6AC1;
-$text-color: #12110F;
-$sub-heading-color: #1884F3;
-$button-color: #1F87E6;
-$footer-background-color: #0E1720;
-$footer-links-color: #8AB3C9;
-$white: #FFF9FE;
 @charset "UTF-8";
 .nav {
   background-color: #1F87E6;
@@ -35,6 +25,7 @@ $white: #FFF9FE;
   padding: 0 15px;
   position: relative;
   z-index: 11;
+  text-decoration: none;
 }
 .navbar-nav__link--button {
   border: 1px solid #FFF9FE;
@@ -244,6 +235,9 @@ $white: #FFF9FE;
     text-align: left;
   }
 
+  .logo {
+    display: none;
+  }
   .logo img {
     height: 100px;
   }

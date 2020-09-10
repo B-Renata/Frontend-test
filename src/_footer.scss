@@ -1,4 +1,3 @@
-@import url(variables.scss);
 .footer{
 	background-color: $footer-background-color;
 	color: #FFF9FE;
@@ -25,11 +24,17 @@
 		}
 
 	.about-author{
+		// no need to use float, could use text-align: right, or d-flex justify-content-end classes
 		float: right;
 		font-family: $body-font;
+		
+		/**
+		* no need to add font-family all the time, e.g.
+		* html, body {
+		*	font-family: $body-font;
+		* }
+		*/
 
 	}
 
 }/*footer*/
-
-

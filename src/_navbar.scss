@@ -1,4 +1,3 @@
-@import url(variables.scss);
 
 .nav{
 	background-color: $navbar-color;
@@ -21,13 +20,14 @@
 	a{
 		text-decoration: none;
 		cursor: pointer;
-}
+	}
 		&__link{
 			color: $white;
 			display: inline;
 			padding: 0 15px;
 			position: relative;
 			z-index: 11;
+			text-decoration: none;
 
 			&--button{
 			border: 1px solid $white;
